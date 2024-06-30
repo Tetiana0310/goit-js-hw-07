@@ -18,12 +18,12 @@ body {
   width: 100%;
   align-items: center;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .gallery img {
-  max-width: 320px;
-  height: auto;
+  max-width: 360px;
+  height: 240px;
   margin: 10px;
- flex-wrap: wrap;
+  display: block;
 }
